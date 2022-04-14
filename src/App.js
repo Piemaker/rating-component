@@ -1,7 +1,13 @@
 import "./App.scss";
-
+import Rating from "./component/rating/Rating";
 function App() {
-  return <div className="App">Hello app</div>;
+  return (
+    <main className="flex">
+      <article className="App">
+        <Rating />
+      </article>
+    </main>
+  );
 }
 
 export default App;

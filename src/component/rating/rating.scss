@@ -76,15 +76,16 @@
   height: 100%;
   border-radius: 1rem;
   text-transform: uppercase;
-  color: $Orange;
+  background-color: $Orange;
+  color: $White;
   font-weight: 700;
   letter-spacing: 1px;
   transition: background-color 0.5s ease;
-
+  
   &:hover {
-    background-color: $Orange;
-    color: $White;
-    cursor: pointer;
+      cursor: pointer;
+      color: $Orange;
+      background-color: $White;
   }
 }
 .image-container {
